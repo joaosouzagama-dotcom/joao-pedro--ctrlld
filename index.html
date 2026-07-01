@@ -1,0 +1,154 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Poderoso Timão</title>
+    <style>
+        /* Configurações Gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #111;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #111;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #d1a119; /* Toque de ouro em alusão aos títulos */
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #ccc;
+            font-style: italic;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Seção Sobre */
+        .about-section {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            border-left: 8px solid #111;
+        }
+
+        .about-section h2 {
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            color: #111;
+        }
+
+        /* Grid de Glórias / Card */
+        .grid-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s ease;
+            border-top: 4px solid #111;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: #111;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #111;
+            color: #777;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+        footer span {
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sport Club Corinthians Paulista</h1>
+        <p>O Clube do Povo • Fundado em 1910</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="about-section">
+            <h2>História e Tradição</h2>
+            <p>Fundado no bairro do Bom Retiro por um grupo de operários, o Corinthians nasceu para ser o clube do povo. Com uma das massas de torcedores mais apaixonadas do planeta, a "Fiel", o Timão construiu uma trajetória marcada por superação, raça e conquistas inesquecíveis no cenário nacional e internacional.</p>
+        </section>
+
+        <section class="grid-cards">
+            <div class="card">
+                <h3>Bicampeão Mundial</h3>
+                <p>As conquistas de 2000 e a histórica invasão de Yokohama em 2012 que consagraram o Timão no topo do mundo.</p>
+            </div>
+
+            <div class="card">
+                <h3>Libertadores Invicta</h3>
+                <p>A glória eterna conquistada em 2012 de forma invicta, coroando uma campanha impecável e monumental.</p>
+            </div>
+
+            <div class="card">
+                <h3>Heptacampeão Brasileiro</h3>
+                <p>Dono de sete taças do Brasileirão (1990, 1998, 1999, 2005, 2011, 2015, 2017), mostrando a força da sua camisa.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Página criada por um torcedor do <span>Corinthians</span>. Vai Corinthians!</p>
+    </footer>
+
+</body>
+</html>
